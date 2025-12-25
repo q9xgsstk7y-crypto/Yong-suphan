@@ -1,0 +1,65 @@
+.img-father {
+  background-image: url("https://scontent.fbkk25-1.fna.fbcdn.net/v/t1.6435-9/97466058_666315477262661_7732200464455827456_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7FvHIvLcwLYQ7kNvwH3gbdP&_nc_oc=AdlPaNqrpn_3jbJT2oGGQhxO21cp8Po025G2r-dde60MPjo5LjqhYklGXuWxQtTqLtlSSW2it_Sw6kqsIbEOPU8q&_nc_zt=23&_nc_ht=scontent.fbkk25-1.fna&_nc_gid=oS0yS6NMiXsO4fRtwvVbrw&oh=00_AflLamf3Zf7WtDZJqaaL4ZpeOIHcbiRxRzV7OZMZOeaGDQ&oe=69738F74");
+  width: 100%;
+  height: 375px;
+  background-size: 100% 100%;
+  background-position:center;
+  margin-top: 0;
+  background-repeat: no-repeat;
+}
+.body{
+    background-attachment: scroll;
+    background-color: blanchedalmond;
+}
+.home{
+    background-color: cornflowerblue ;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-left: auto;
+    white-space: nowrap;
+}
+.line{
+    text-align:left;
+}
+.phone{
+    text-align: left;
+}
+.facebook{
+    text-align: left;
+}
+.cars {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.car {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 300px;
+}
+.car img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.one-line {
+  white-space: nowrap;
+}
+.text{
+  font-size: 100px;
+}
+.top-section{
+    display: flex;
+    align-items: center; /* ให้อยู่บรรทัดเดียวกัน */
+    justify-content: space-between;
+    margin-bottom: 20px; /* กันชนกับแถวรูปรถ */
+}
+
+.big-text{
+    font-size: 170px;
+    font-weight: bold;
+    white-space: nowrap; /* ไม่ให้ขึ้นบรรทัดใหม่ */
+    color:steelblue;
+}
